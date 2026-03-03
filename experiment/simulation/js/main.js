@@ -29,27 +29,37 @@ const reactor = document.getElementById("reactor");
 
 /* ================= POPUP SYSTEM (FIXED PROPERLY) ================= */
 
+/* ================= POPUP SYSTEM (FIXED) ================= */
+
 const popup = document.getElementById("popup");
 const popupText = document.getElementById("popupText");
 const popupOk = document.getElementById("popupOk");
 
+// Wrap the event listener in a check or wait for DOM load
+if (popupOk) {
+    popupOk.addEventListener("click", hidePopup);
+}
+
 function showPopup(message) {
-    popupText.textContent = message;
-    popup.style.display = "flex";
+    if(popupText && popup) {
+        popupText.textContent = message;
+        popup.style.display = "flex";
+    }
 }
 
 function hidePopup() {
-    popup.style.display = "none";
+    if(popup) popup.style.display = "none";
 }
 
-// popupOk.addEventListener("click", hidePopup);
+// Ensure the popup listener only attaches if the element exists
+if (popup) {
+    popup.addEventListener("click", function(e){
+        if(e.target === popup){
+            hidePopup();
+        }
+    });
+}
 
-// Click outside closes popup
-popup.addEventListener("click", function(e){
-    if(e.target === popup){
-        hidePopup();
-    }
-});
 
 // ESC key closes popup
 document.addEventListener("keydown", function(e){
