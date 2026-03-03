@@ -42,7 +42,7 @@ function hidePopup() {
     popup.style.display = "none";
 }
 
-popupOk.addEventListener("click", hidePopup);
+// popupOk.addEventListener("click", hidePopup);
 
 // Click outside closes popup
 popup.addEventListener("click", function(e){
