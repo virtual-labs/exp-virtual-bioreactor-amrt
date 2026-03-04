@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bioreactor Simulator</title>
+<link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+<header>
+  <img src="images\logo.png" class="logo">
+  <h1>Batch α-Amylase Production Simulator</h1>
+</header>
+
+<section class="steps-box">
+  <h2>📌 How This Simulator Works</h2>
+
+  <div class="step-item">
+    <span class="step-number">1</span>
+    Add Starch Medium
+  </div>
+
+  <div class="step-item">
+    <span class="step-number">2</span>
+    Select Bacillus Species
+  </div>
+
+  <div class="step-item">
+    <span class="step-number">3</span>
+    Add Inoculum
+  </div>
+
+  <div class="step-item">
+    <span class="step-number">4</span>
+    Adjust Aeration, Temperature & pH
+  </div>
+
+  <div class="step-item">
+    <span class="step-number">5</span>
+    Start Fermentation
+  </div>
+</section>
+<div class="container">
+  
+
+<!-- INPUTS -->
+<div class="inputs">
+<h2>Process Inputs</h2>
+
+<div class="tool" draggable="true" data-type="medium">🌾 Starch Medium</div>
+
+<select id="species" disabled>
+<option value="">Select Bacillus</option>
+<option value="subtilis">Bacillus subtilis</option>
+<option value="amyloliquefaciens">Bacillus amyloliquefaciens</option>
+</select>
+
+<div class="tool" draggable="true" data-type="inoculum" id="inoculumBtn">🧫 Add Inoculum</div>
+
+<div class="tool" draggable="true" data-type="air" id="airBtn">💨 Aeration</div>
+
+</div>
+
+<!-- REACTOR -->
+<div class="reactor-wrapper">
+<div class="reactor" id="reactor">
+
+<img src="images\bioreactor.png" class="reactor-img">
+
+<!-- LIQUID MASK -->
+<div class="liquid-mask">
+  <div class="liquid" id="liquid"></div>
+  <div class="bubbles" id="bubbles"></div>
+</div>
+
+<!-- IMPELLER -->
+<div class="impeller" id="impeller">
+  <div class="blade"></div>
+  <div class="blade blade2"></div>
+</div>
+
+</div>
+</div>
+
+<!-- STATUS -->
+<div class="status">
+<h2>Fermentation Status</h2>
+
+<p>Medium</p>
+<div class="bar"><div id="barMedium"></div></div>
+
+<p>Inoculum</p>
+<div class="bar"><div id="barInoculum"></div></div>
+
+<p>Aeration</p>
+<div class="bar"><div id="barAir"></div></div>
+
+<p>Aeration Status: <span id="airStatus">None</span></p>
+
+<p>Temperature: <span id="tempVal">30</span> °C</p>
+<input type="range" id="temp" min="25" max="55" value="30">
+
+<p>pH: <span id="phVal">7.0</span></p>
+<input type="range" id="ph" min="5" max="9" step="0.1" value="7">
+
+<p id="warning" class="warning"></p>
+
+<button id="start">Start</button>
+<button id="stop">Stop</button>
+<button id="reset">Reset</button>
+
+<p>Biomass: <span id="biomass">0.00</span> g/L</p>
+
+<button id="download">Download Report</button>
+
+</div>
+
+</div>
+
+<div class="popup" id="popup">
+  <div class="popup-box">
+    <p id="popupText"></p>
+    <button id="popupOk">OK</button>
+  </div>
+</div>
+</div>
+
+<script src="script.js"></script>
+<script src="../assets/js/iframeResize.js"></script>
+        
+        </body>
+</html>
