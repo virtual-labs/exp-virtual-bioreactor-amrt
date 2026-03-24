@@ -3,12 +3,12 @@
   "version": 2.0,
   "questions": [
     {
-          "question": "1. Histology refers to the study of:",
+          "question": "1. In batch fermentation, the system is:",
       "answers": {
-        "a": "Muscles",
-        "b": "Tissues",
-        "c": "Bones",
-        "d": "Diseases"
+        "a": "Open system",
+        "b": "Closed system",
+        "c": "Semi-open",
+        "d": "Continuous system"
       },
  
       "correctAnswer": "b",
@@ -17,12 +17,25 @@
 
 
     {
-      "question": "2. The stain commonly used in histology is:",
+      "question": "2. According to Monod kinetics, the growth rate depends on:",
       "answers": {
-        "a": "Gram stain",
-        "b": "Iodine stain",
-        "c": "Hematoxylin and eosin",
-        "d": "Methylene blue"
+        "a": "Vessel size",
+        "b": "Substrate concentration",
+        "c": "Color of medium",
+        "d": "Pressure only"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "3. In batch fermentation, substrate concentration over time:",
+      "answers": {
+        "a": "Increases",
+        "b": "Remains constant",
+        "c": "Decreases",
+        "d": "Fluctuates randomly"
       },
       
       "correctAnswer": "c",
@@ -30,44 +43,35 @@
     },
 
     {
-      "question": "3. The cell, which is found in the nervous tissue, is:",
+      "question": "4. The main role of agitation in a bioreactor is:",
       "answers": {
-        "a": "Neuron",
-        "b": "Chondrocyte",
-        "c": "FibroblastPRS",
-        "d": "Osteocyte"
-      },
-      
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-
-    {
-      "question": "4. While staining, the nuclei of cardiac muscle cells appear:",
-      "answers": {
-        "a": "Pink",
-        "b": "Purple",
-        "c": "Red",
-        "d": "Green"
+        "a": "Increase pH",
+        "b": "Improve mixing and oxygen transfer",
+        "c": "Reduce biomass",
+        "d": "Stop fermentation"
       },
       
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
 
-
-
     {
-      "question": "5. Striated, branched fibres with a single nucleus are characteristic of:",
+      "question": "5. Oxygen limitation in aerobic fermentation leads to:",
       "answers": {
-        "a": "Epithelial tissue",
-        "b": "Cardiac muscle",
-        "c": "Muscle cells",
-        "d": "Nerve cells"
+        "a": "Increased enzyme production",
+        "b": "Faster growth",
+        "c": "No effect",
+        "d": "Reduced microbial activity"
       },
      
-      "correctAnswer": "b",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]
 }	 
+
+
+
+ 
+
+
