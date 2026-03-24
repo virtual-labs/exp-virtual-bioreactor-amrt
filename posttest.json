@@ -1,0 +1,77 @@
+
+{
+  "version": 2.0,
+  "questions": [
+    {
+          "question": "1. In batch fermentation, the system is:",
+      "answers": {
+        "a": "Open system",
+        "b": "Closed system",
+        "c": "Semi-open",
+        "d": "Continuous system"
+      },
+ 
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },   
+
+
+    {
+      "question": "2. According to Monod kinetics, the growth rate depends on:",
+      "answers": {
+        "a": "Vessel size",
+        "b": "Substrate concentration",
+        "c": "Color of medium",
+        "d": "Pressure only"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "3. In batch fermentation, substrate concentration over time:",
+      "answers": {
+        "a": "Increases",
+        "b": "Remains constant",
+        "c": "Decreases",
+        "d": "Fluctuates randomly"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "4. The main role of agitation in a bioreactor is:",
+      "answers": {
+        "a": "Increase pH",
+        "b": "Improve mixing and oxygen transfer",
+        "c": "Reduce biomass",
+        "d": "Stop fermentation"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "5. Oxygen limitation in aerobic fermentation leads to:",
+      "answers": {
+        "a": "Increased enzyme production",
+        "b": "Faster growth",
+        "c": "No effect",
+        "d": "Reduced microbial activity"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}	 
+
+
+
+ 
+
+

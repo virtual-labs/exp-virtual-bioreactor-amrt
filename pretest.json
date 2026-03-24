@@ -1,0 +1,80 @@
+
+{
+  "version": 2.0,
+  "questions": [
+    {
+          "question": "1. Fermentation is primarily defined as:",
+      "answers": {
+        "a": "A process that requires sunlight",
+        "b": "A process of energy production by microorganisms",
+        "c": "A process only occurring in plants",
+        "d": "A chemical reaction without enzymes"
+      },
+ 
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },   
+
+
+    {
+      "question": "2. What microorganism is commonly used for α-amylase production?",
+      "answers": {
+        "a": "Escherichia coli",
+        "b": "Bacillus subtilis",
+        "c": "Rhizopus",
+        "d": "Penicillium"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "3. Batch fermentation is characterized by:",
+      "answers": {
+        "a": "Continuous addition of nutrients",
+        "b": "Removal of culture continuously",
+        "c": "Addition of all nutrients at the beginning",
+        "d": "Constant inflow and outflow"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "4. The main product of starch breakdown by α-amylase is:",
+      "answers": {
+        "a": "Amino acids",
+        "b": "Fatty acids",
+        "c": "Simple sugars",
+        "d": "Nucleotides"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "5. Aeration in fermentation is mainly required for:",
+      "answers": {
+        "a": "Cooling the system",
+        "b": "Providing oxygen",
+        "c": "Removing waste",
+        "d": "Increasing Ph"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}	 
+
+
+
+
+
+
+
