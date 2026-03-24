@@ -1,39 +1,73 @@
+
 {
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+          "question": "1. Histology refers to the study of:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Muscles",
+        "b": "Tissues",
+        "c": "Bones",
+        "d": "Diseases"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+ 
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },   
+
+
+    {
+      "question": "2. The stain commonly used in histology is:",
+      "answers": {
+        "a": "Gram stain",
+        "b": "Iodine stain",
+        "c": "Hematoxylin and eosin",
+        "d": "Methylene blue"
       },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "3. The cell, which is found in the nervous tissue, is:",
+      "answers": {
+        "a": "Neuron",
+        "b": "Chondrocyte",
+        "c": "FibroblastPRS",
+        "d": "Osteocyte"
+      },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
+
     {
-      "question": "This is a Sample Question 2?",
+      "question": "4. While staining, the nuclei of cardiac muscle cells appear:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Pink",
+        "b": "Purple",
+        "c": "Red",
+        "d": "Green"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "5. Striated, branched fibres with a single nucleus are characteristic of:",
+      "answers": {
+        "a": "Epithelial tissue",
+        "b": "Cardiac muscle",
+        "c": "Muscle cells",
+        "d": "Nerve cells"
       },
-      "correctAnswer": "c",
+     
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
-}
+}	 
