@@ -3,12 +3,12 @@
   "version": 2.0,
   "questions": [
     {
-          "question": "1. Histology refers to the study of:",
+          "question": "1. Fermentation is primarily defined as:",
       "answers": {
-        "a": "Muscles",
-        "b": "Tissues",
-        "c": "Bones",
-        "d": "Diseases"
+        "a": "A process that requires sunlight",
+        "b": "A process of energy production by microorganisms",
+        "c": "A process only occurring in plants",
+        "d": "A chemical reaction without enzymes"
       },
  
       "correctAnswer": "b",
@@ -17,12 +17,25 @@
 
 
     {
-      "question": "2. The stain commonly used in histology is:",
+      "question": "2. What microorganism is commonly used for α-amylase production?",
       "answers": {
-        "a": "Gram stain",
-        "b": "Iodine stain",
-        "c": "Hematoxylin and eosin",
-        "d": "Methylene blue"
+        "a": "Escherichia coli",
+        "b": "Bacillus subtilis",
+        "c": "Rhizopus",
+        "d": "Penicillium"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "3. Batch fermentation is characterized by:",
+      "answers": {
+        "a": "Continuous addition of nutrients",
+        "b": "Removal of culture continuously",
+        "c": "Addition of all nutrients at the beginning",
+        "d": "Constant inflow and outflow"
       },
       
       "correctAnswer": "c",
@@ -30,40 +43,27 @@
     },
 
     {
-      "question": "3. The cell, which is found in the nervous tissue, is:",
+      "question": "4. The main product of starch breakdown by α-amylase is:",
       "answers": {
-        "a": "Neuron",
-        "b": "Chondrocyte",
-        "c": "FibroblastPRS",
-        "d": "Osteocyte"
+        "a": "Amino acids",
+        "b": "Fatty acids",
+        "c": "Simple sugars",
+        "d": "Nucleotides"
       },
       
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-
-    {
-      "question": "4. While staining, the nuclei of cardiac muscle cells appear:",
-      "answers": {
-        "a": "Pink",
-        "b": "Purple",
-        "c": "Red",
-        "d": "Green"
-      },
-      
-      "correctAnswer": "b",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
 
 
 
     {
-      "question": "5. Striated, branched fibres with a single nucleus are characteristic of:",
+      "question": "5. Aeration in fermentation is mainly required for:",
       "answers": {
-        "a": "Epithelial tissue",
-        "b": "Cardiac muscle",
-        "c": "Muscle cells",
-        "d": "Nerve cells"
+        "a": "Cooling the system",
+        "b": "Providing oxygen",
+        "c": "Removing waste",
+        "d": "Increasing Ph"
       },
      
       "correctAnswer": "b",
@@ -71,3 +71,10 @@
     }
   ]
 }	 
+
+
+
+
+
+
+
